@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Fundo arredondado azul (mesma cor da logo) -->
+  <rect x="0" y="0" width="512" height="512" rx="96" fill="#1e3eaa"/>
+
+  <!-- Letra D (mesmo estilo da logo: stem grosso à esquerda, curva suave à direita, vazado interno) -->
+  <path d="M 60 96
+           H 226
+           C 326 96, 392 158, 392 256
+           C 392 354, 326 416, 226 416
+           H 60
+           Z
+           M 152 184
+           V 328
+           H 222
+           C 274 328, 304 296, 304 256
+           C 304 216, 274 184, 222 184
+           Z"
+        fill="#ffffff"
+        fill-rule="evenodd"/>
+
+  <!-- Letra G (sobreposta sobre o lado direito do D, igual à logo) -->
+  <path d="M 332 256
+           C 332 158, 396 96, 488 96
+           V 184
+           C 446 184, 420 214, 420 256
+           C 420 298, 446 328, 488 328
+           V 308
+           H 432
+           V 240
+           H 488
+           V 416
+           H 332
+           Z"
+        fill="#ffffff"
+        transform="translate(-40, 0)"/>
+</svg>

@@ -1,0 +1,766 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a2472" />
+  <meta name="description" content="DG Contabilidade — Escritório de contabilidade especializado em soluções fiscais, tributárias e de departamento pessoal para empresas de todos os portes. Atendimento humanizado, tecnologia e expertise." />
+  <meta name="keywords" content="contabilidade, contador, escritório contábil, imposto de renda, abertura de empresa, simples nacional, MEI, tributos, folha de pagamento" />
+  <title>DG Contabilidade — Inteligência Contábil que Transforma Negócios</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="LOGO%20DG.png" />
+  <link rel="apple-touch-icon" href="LOGO%20DG.png" />
+  <link rel="shortcut icon" href="LOGO%20DG.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== Loader ========== -->
+  <div class="page-loader" id="page-loader">
+    <div class="loader-spinner"></div>
+  </div>
+
+  <!-- ========== Navbar ========== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo-link" aria-label="DG Contabilidade">
+        <img src="LOGO%20DG.png" alt="DG Contabilidade" class="nav-logo" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='logo.svg';}else{this.style.display='none';this.nextElementSibling.style.display='flex';}" />
+        <span class="nav-logo-fallback">
+          <span class="logo-mark">DG</span>
+          <span class="logo-text">Contabilidade</span>
+        </span>
+      </a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#home" class="nav-item active">Início</a>
+        <a href="#servicos" class="nav-item">Serviços</a>
+        <a href="#sobre" class="nav-item">Sobre</a>
+        <a href="#calculadoras" class="nav-item">Calculadoras</a>
+        <a href="#faq" class="nav-item">FAQ</a>
+        <a href="#contato" class="nav-item">Contato</a>
+      </nav>
+
+      <a href="https://wa.me/5594992073389?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20DG%20Contabilidade%20e%20gostaria%20de%20atendimento." target="_blank" rel="noopener" class="btn-nav">
+        <i class="fa-solid fa-paper-plane"></i>
+        <span>Fale Conosco</span>
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== Hero ========== -->
+  <section class="hero" id="home">
+    <div class="hero-orbs">
+      <span class="orb orb-1"></span>
+      <span class="orb orb-2"></span>
+      <span class="orb orb-3"></span>
+    </div>
+    <div class="hero-grid-bg"></div>
+
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <span class="hero-badge">
+          <span class="pulse-dot"></span>
+          Atendendo empresas em todo o Brasil
+        </span>
+
+        <h1 class="hero-title">
+          Inteligência contábil que <span class="gradient-text">transforma</span> o seu negócio.
+        </h1>
+
+        <p class="hero-desc">
+          Contabilidade estratégica, fiscal e financeira para empresas de todos os portes.
+          Cuidamos da burocracia para você focar no que realmente importa: <strong>fazer sua empresa crescer</strong>.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contato" class="btn-primary">
+            <i class="fa-solid fa-comments"></i>
+            Falar com um especialista
+          </a>
+          <a href="#servicos" class="btn-ghost">
+            <span>Conhecer serviços</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="hero-trust">
+          <div class="trust-avatars">
+            <span class="ta"><i class="fa-solid fa-shield-halved"></i></span>
+            <span class="ta"><i class="fa-solid fa-cloud-arrow-up"></i></span>
+            <span class="ta"><i class="fa-solid fa-headset"></i></span>
+          </div>
+          <div class="trust-text">
+            <div class="trust-stars">
+              <i class="fa-solid fa-circle-check"></i>
+              <strong>Contabilidade sem complicação</strong>
+            </div>
+            <span>Atendimento digital, consultivo e próximo</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-card-stack">
+
+          <!-- Card principal -->
+          <div class="hcard hcard-main">
+            <div class="hcard-header">
+              <div class="hcard-logo">
+                <img src="LOGO%20DG.png" alt="DG Contabilidade" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='logo.svg';}else{this.style.display='none';this.nextElementSibling.style.display='flex';}" />
+                <span class="hcard-logo-mark">DG</span>
+              </div>
+              <div class="hcard-status">
+                <span class="status-dot"></span> Em dia
+              </div>
+            </div>
+            <div class="hcard-title">Painel Empresa</div>
+            <div class="hcard-stats">
+              <div class="hcard-stat">
+                <span class="hs-label">Faturamento</span>
+                <span class="hs-value">R$ 184.250</span>
+                <span class="hs-trend up"><i class="fa-solid fa-arrow-trend-up"></i> 12.4%</span>
+              </div>
+              <div class="hcard-stat">
+                <span class="hs-label">Economia em tributos</span>
+                <span class="hs-value">R$ 27.800</span>
+                <span class="hs-trend up"><i class="fa-solid fa-arrow-trend-up"></i> 8.9%</span>
+              </div>
+            </div>
+            <div class="hcard-bar">
+              <div class="hbar"><span style="height:55%"></span><span style="height:72%"></span><span style="height:48%"></span><span style="height:84%"></span><span style="height:66%"></span><span style="height:90%"></span><span style="height:78%"></span></div>
+            </div>
+          </div>
+
+          <!-- Floating: Notification -->
+          <div class="hcard hcard-float hcard-notif">
+            <div class="hcard-notif-icon">
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <div>
+              <strong>Declaração entregue</strong>
+              <span>Sem pendências fiscais</span>
+            </div>
+          </div>
+
+          <!-- Floating: Tax -->
+          <div class="hcard hcard-float hcard-tax">
+            <div class="hcard-notif-icon alt">
+              <i class="fa-solid fa-receipt"></i>
+            </div>
+            <div>
+              <strong>Simples Nacional</strong>
+              <span>Guia DAS gerada</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Stats Strip ========== -->
+  <section class="stats-strip">
+    <div class="container stats-strip-inner">
+      <div class="strip-item">
+        <span class="strip-num" data-target="500">0</span><span class="strip-plus">+</span>
+        <p>Empresas atendidas</p>
+      </div>
+      <div class="strip-item">
+        <span class="strip-num" data-target="98">0</span><span class="strip-plus">%</span>
+        <p>Satisfação dos clientes</p>
+      </div>
+      <div class="strip-item">
+        <span class="strip-num" data-target="24">0</span><span class="strip-plus">h</span>
+        <p>Tempo médio de retorno</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Serviços ========== -->
+  <section class="services" id="servicos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-briefcase"></i> O que oferecemos</span>
+        <h2 class="section-title">Soluções contábeis completas para o seu negócio</h2>
+        <p class="section-desc">
+          Combinamos expertise técnica e tecnologia de ponta para entregar serviços contábeis precisos, ágeis e estratégicos.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-file-invoice-dollar"></i>
+          </div>
+          <h3>Contabilidade Empresarial</h3>
+          <p>Escrituração, balancetes, demonstrações contábeis e relatórios gerenciais com total conformidade às normas vigentes.</p>
+          <a href="#contato" class="service-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-landmark"></i>
+          </div>
+          <h3>Planejamento Tributário</h3>
+          <p>Análise tributária estratégica para reduzir legalmente a carga de impostos e otimizar o caixa da sua empresa.</p>
+          <a href="#contato" class="service-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-users"></i>
+          </div>
+          <h3>Departamento Pessoal</h3>
+          <p>Folha de pagamento, eSocial, FGTS, admissões e demissões. Gestão completa do seu RH com agilidade e segurança.</p>
+          <a href="#contato" class="service-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-rocket"></i>
+          </div>
+          <h3>Abertura de Empresa</h3>
+          <p>Constituição, alteração contratual e regularização. Cuidamos de toda a burocracia para você começar rápido.</p>
+          <a href="#contato" class="service-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-calculator"></i>
+          </div>
+          <h3>Imposto de Renda</h3>
+          <p>Declaração de IRPF e IRPJ com total segurança, evitando malha fina e aproveitando o máximo de benefícios fiscais.</p>
+          <a href="#contato" class="service-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-chart-line"></i>
+          </div>
+          <h3>Consultoria Financeira</h3>
+          <p>Fluxo de caixa, indicadores, análise de viabilidade e assessoria estratégica para decisões mais inteligentes.</p>
+          <a href="#contato" class="service-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-id-badge"></i>
+          </div>
+          <h3>MEI e Microempresas</h3>
+          <p>Atendimento especializado para MEIs e pequenas empresas. Migração de regime e enquadramento tributário ideal.</p>
+          <a href="#contato" class="service-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">
+            <i class="fa-solid fa-scale-balanced"></i>
+          </div>
+          <h3>Regularização Fiscal</h3>
+          <p>Recuperação de certidões negativas, parcelamentos e regularização de débitos junto à Receita Federal e Estadual.</p>
+          <a href="#contato" class="service-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Sobre ========== -->
+  <section class="about" id="sobre">
+    <div class="container about-inner">
+      <div class="about-visual">
+        <div class="about-card-stack">
+          <div class="about-card-main">
+            <img src="LOGO%20DG.png" alt="DG Contabilidade" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='logo.svg';}else{this.style.display='none';this.nextElementSibling.style.display='flex';}" />
+            <div class="about-logo-fallback">
+              <span>DG</span>
+              <small>Contabilidade</small>
+            </div>
+          </div>
+          <div class="about-floating">
+            <i class="fa-solid fa-medal"></i>
+            <div>
+              <strong>CRC ativo</strong>
+              <span>Profissionais registrados</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <span class="section-tag"><i class="fa-solid fa-handshake"></i> Quem somos</span>
+        <h2 class="section-title">Tradição e tecnologia ao serviço da sua empresa.</h2>
+        <p class="about-lead">
+          A <strong>DG Contabilidade</strong> nasceu com o propósito de oferecer um atendimento contábil verdadeiramente parceiro:
+          próximo, transparente e estratégico. Mais que cumprir obrigações fiscais, ajudamos empresas a tomar decisões melhores.
+        </p>
+
+        <div class="about-pillars">
+          <div class="pillar">
+            <i class="fa-solid fa-bullseye"></i>
+            <strong>Missão</strong>
+            <span>Simplificar a contabilidade e impulsionar o crescimento dos nossos clientes.</span>
+          </div>
+          <div class="pillar">
+            <i class="fa-solid fa-eye"></i>
+            <strong>Visão</strong>
+            <span>Ser referência em contabilidade consultiva e digital no país.</span>
+          </div>
+          <div class="pillar">
+            <i class="fa-solid fa-gem"></i>
+            <strong>Valores</strong>
+            <span>Ética, transparência, comprometimento e inovação contínua.</span>
+          </div>
+        </div>
+
+        <a href="#contato" class="btn-primary">
+          <i class="fa-solid fa-handshake"></i> Vamos conversar
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Diferenciais ========== -->
+  <section class="differentials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-star"></i> Por que nos escolher</span>
+        <h2 class="section-title">Nossos diferenciais</h2>
+        <p class="section-desc">Atendimento humano, processos modernos e foco total no resultado do seu negócio.</p>
+      </div>
+
+      <div class="diff-grid">
+        <div class="diff-card">
+          <div class="diff-icon"><i class="fa-solid fa-bolt"></i></div>
+          <h4>Resposta em até 24h</h4>
+          <p>Retorno garantido para todas as solicitações em até um dia útil.</p>
+        </div>
+        <div class="diff-card">
+          <div class="diff-icon"><i class="fa-solid fa-cloud"></i></div>
+          <h4>100% Digital</h4>
+          <p>Plataforma na nuvem para acesso seguro a documentos e relatórios em tempo real.</p>
+        </div>
+        <div class="diff-card">
+          <div class="diff-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h4>Sigilo Absoluto</h4>
+          <p>Tratamento confidencial das informações, em total conformidade com a LGPD.</p>
+        </div>
+        <div class="diff-card">
+          <div class="diff-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <h4>Equipe Certificada</h4>
+          <p>Profissionais com registro no CRC e atualização constante em legislação.</p>
+        </div>
+        <div class="diff-card">
+          <div class="diff-icon"><i class="fa-solid fa-headset"></i></div>
+          <h4>Suporte Dedicado</h4>
+          <p>Um contador de confiança acompanhando o seu negócio do início ao fim.</p>
+        </div>
+        <div class="diff-card">
+          <div class="diff-icon"><i class="fa-solid fa-chart-pie"></i></div>
+          <h4>Visão Estratégica</h4>
+          <p>Mais que números: insights que apoiam a tomada de decisão da sua empresa.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Calculadoras ========== -->
+  <section class="calculators" id="calculadoras">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-calculator"></i> Ferramentas gratuitas</span>
+        <h2 class="section-title">Calculadoras úteis para sua empresa</h2>
+        <p class="section-desc">Simulações rápidas e fáceis para apoiar suas decisões. Para uma análise completa, fale com nossos especialistas.</p>
+      </div>
+
+      <div class="calc-tabs" role="tablist">
+        <button class="calc-tab active" data-tab="das" role="tab">
+          <i class="fa-solid fa-receipt"></i> Simples Nacional (DAS)
+        </button>
+        <button class="calc-tab" data-tab="inss" role="tab">
+          <i class="fa-solid fa-user-shield"></i> INSS Empregado
+        </button>
+        <button class="calc-tab" data-tab="prolabore" role="tab">
+          <i class="fa-solid fa-money-check-dollar"></i> Pró-labore Líquido
+        </button>
+      </div>
+
+      <div class="calc-panel-wrapper">
+
+        <!-- DAS -->
+        <div class="calc-panel active" data-panel="das">
+          <div class="calc-form">
+            <h3>Simulador de DAS — Anexo III (Serviços)</h3>
+            <p class="calc-desc">Estimativa de DAS mensal para empresas do Anexo III do Simples Nacional. Considera o faturamento dos últimos 12 meses.</p>
+
+            <div class="form-group">
+              <label for="das-fat-mes">Faturamento do mês (R$)</label>
+              <input type="number" id="das-fat-mes" placeholder="Ex: 25000" min="0" step="0.01" />
+            </div>
+            <div class="form-group">
+              <label for="das-fat-ano">Faturamento últimos 12 meses (RBT12) (R$)</label>
+              <input type="number" id="das-fat-ano" placeholder="Ex: 240000" min="0" step="0.01" />
+            </div>
+
+            <button class="btn-primary btn-full" id="calc-das-btn">
+              <i class="fa-solid fa-calculator"></i> Calcular DAS
+            </button>
+          </div>
+
+          <div class="calc-result" id="das-result">
+            <div class="calc-result-empty">
+              <i class="fa-solid fa-chart-simple"></i>
+              <p>Preencha os campos e clique em <strong>calcular</strong> para ver o resultado.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- INSS -->
+        <div class="calc-panel" data-panel="inss">
+          <div class="calc-form">
+            <h3>Simulador de INSS — Empregado</h3>
+            <p class="calc-desc">Calcula o desconto progressivo de INSS sobre o salário do empregado, conforme tabela vigente.</p>
+
+            <div class="form-group">
+              <label for="inss-salario">Salário bruto (R$)</label>
+              <input type="number" id="inss-salario" placeholder="Ex: 4500" min="0" step="0.01" />
+            </div>
+
+            <button class="btn-primary btn-full" id="calc-inss-btn">
+              <i class="fa-solid fa-calculator"></i> Calcular INSS
+            </button>
+          </div>
+
+          <div class="calc-result" id="inss-result">
+            <div class="calc-result-empty">
+              <i class="fa-solid fa-user-shield"></i>
+              <p>Informe o salário e clique em <strong>calcular</strong> para ver o desconto e o salário líquido.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pró-labore -->
+        <div class="calc-panel" data-panel="prolabore">
+          <div class="calc-form">
+            <h3>Simulador de Pró-labore Líquido</h3>
+            <p class="calc-desc">Calcula o valor líquido do pró-labore após desconto de INSS (11%) e IRRF.</p>
+
+            <div class="form-group">
+              <label for="pl-bruto">Pró-labore bruto (R$)</label>
+              <input type="number" id="pl-bruto" placeholder="Ex: 5000" min="0" step="0.01" />
+            </div>
+            <div class="form-group">
+              <label for="pl-dependentes">Quantidade de dependentes</label>
+              <input type="number" id="pl-dependentes" placeholder="Ex: 0" min="0" step="1" value="0" />
+            </div>
+
+            <button class="btn-primary btn-full" id="calc-pl-btn">
+              <i class="fa-solid fa-calculator"></i> Calcular Líquido
+            </button>
+          </div>
+
+          <div class="calc-result" id="pl-result">
+            <div class="calc-result-empty">
+              <i class="fa-solid fa-money-bill-trend-up"></i>
+              <p>Preencha os dados e clique em <strong>calcular</strong> para ver o pró-labore líquido.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="calc-disclaimer">
+        <i class="fa-solid fa-circle-info"></i>
+        As simulações são estimativas baseadas em alíquotas vigentes e não substituem a análise individual de um contador.
+      </p>
+    </div>
+  </section>
+
+  <!-- ========== FAQ ========== -->
+  <section class="faq" id="faq">
+    <div class="container faq-inner">
+      <div class="faq-aside">
+        <span class="section-tag"><i class="fa-solid fa-circle-question"></i> Tire suas dúvidas</span>
+        <h2 class="section-title">Perguntas frequentes</h2>
+        <p>Reunimos aqui as principais dúvidas que recebemos. Não encontrou a sua? <a href="#contato">Fale com a gente</a>.</p>
+
+        <div class="faq-cta-card">
+          <i class="fa-solid fa-comments"></i>
+          <strong>Ainda com dúvidas?</strong>
+          <p>Nossa equipe responde em até 24h.</p>
+          <a href="#contato" class="btn-primary btn-sm">Entrar em contato</a>
+        </div>
+      </div>
+
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Como faço para trocar de contador para a DG Contabilidade?</summary>
+          <div class="faq-answer">
+            <p>O processo é simples e rápido. Você nos envia uma autorização e cuidamos de toda a transferência junto ao seu contador atual, sem traumas ou interrupções no atendimento. Em poucos dias sua empresa estará 100% conosco.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Quais regimes tributários a DG atende?</summary>
+          <div class="faq-answer">
+            <p>Atendemos todos os regimes: <strong>MEI</strong>, <strong>Simples Nacional</strong>, <strong>Lucro Presumido</strong> e <strong>Lucro Real</strong>. Fazemos também o estudo de enquadramento ideal para sua empresa pagar menos impostos legalmente.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Quanto custa contratar uma contabilidade?</summary>
+          <div class="faq-answer">
+            <p>O valor varia conforme o porte, regime tributário e número de funcionários da empresa. Após uma rápida conversa, montamos uma proposta sob medida com tudo incluso, sem surpresas. <a href="#contato">Solicite um orçamento gratuito</a>.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Vocês atendem empresas de outras cidades ou estados?</summary>
+          <div class="faq-answer">
+            <p>Sim! Atendemos empresas de todo o Brasil de forma 100% digital. Toda a comunicação e envio de documentos é feita pela nossa plataforma na nuvem, com a mesma qualidade do atendimento presencial.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Quanto tempo leva para abrir uma empresa?</summary>
+          <div class="faq-answer">
+            <p>Em média, abrimos uma empresa em <strong>5 a 10 dias úteis</strong>, podendo ser mais rápido dependendo do município e da atividade. Cuidamos de tudo: registro, CNPJ, alvará e inscrição estadual/municipal quando aplicável.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Como envio meus documentos para vocês?</summary>
+          <div class="faq-answer">
+            <p>Você terá acesso à nossa plataforma na nuvem, onde envia notas fiscais, recibos e documentos por upload, e-mail ou WhatsApp. Tudo de forma segura e organizada — sem precisar imprimir nada.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>A DG faz consultoria estratégica também?</summary>
+          <div class="faq-answer">
+            <p>Sim. Além das obrigações fiscais e contábeis, oferecemos consultoria financeira e tributária para ajudar empresários a tomar decisões com base em dados — análise de margens, viabilidade de novos projetos, fluxo de caixa e mais.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA ========== -->
+  <section class="cta-section">
+    <div class="cta-bg-shapes">
+      <span class="cta-orb"></span>
+      <span class="cta-orb cta-orb-2"></span>
+    </div>
+    <div class="container cta-inner">
+      <div class="cta-content">
+        <h2>Pronto para transformar a contabilidade da sua empresa?</h2>
+        <p>Receba uma análise gratuita do seu cenário contábil e descubra como podemos ajudar você a economizar e crescer.</p>
+      </div>
+      <div class="cta-actions">
+        <a href="https://wa.me/5594992073389?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20DG%20Contabilidade%20e%20gostaria%20de%20uma%20consulta." target="_blank" rel="noopener" class="btn-whatsapp">
+          <i class="fa-brands fa-whatsapp"></i> Falar no WhatsApp
+        </a>
+        <a href="#contato" class="btn-ghost-white">
+          Formulário de contato <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Contato ========== -->
+  <section class="contact" id="contato">
+    <div class="container contact-inner">
+      <div class="contact-info">
+        <span class="section-tag"><i class="fa-solid fa-envelope-open-text"></i> Entre em contato</span>
+        <h2 class="section-title">Vamos conversar sobre o seu negócio.</h2>
+        <p class="contact-lead">
+          Nossa equipe está pronta para entender sua necessidade e oferecer a melhor solução. Escolha o canal que preferir.
+        </p>
+
+        <div class="contact-items">
+          <a href="tel:+5594992073389" class="contact-item">
+            <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <strong>Telefone / WhatsApp</strong>
+              <span>(94) 99207-3389</span>
+            </div>
+          </a>
+          <a href="mailto:d.g.contabilidade@hotmail.com" class="contact-item">
+            <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <strong>E-mail</strong>
+              <span>d.g.contabilidade@hotmail.com</span>
+            </div>
+          </a>
+          <div class="contact-item">
+            <div class="c-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <strong>Endereço</strong>
+              <span>Canaã dos Carajás — Pará</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="c-icon"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <strong>Horário de atendimento</strong>
+              <span>Seg a Sex: 8h às 18h</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a href="https://www.instagram.com/dgcontabilidade/" target="_blank" rel="noopener" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/5594992073389" target="_blank" rel="noopener" class="social-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="contact-form-wrapper">
+        <form class="contact-form" id="contact-form" novalidate>
+          <h3>Solicite uma consulta gratuita</h3>
+          <p class="form-sub">Preencha os dados e retornaremos em até 24h úteis.</p>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Nome completo *</label>
+              <input type="text" id="name" name="name" placeholder="Seu nome" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">WhatsApp *</label>
+              <input type="tel" id="phone" name="phone" placeholder="(94) 99999-9999" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">E-mail *</label>
+              <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="company">Empresa</label>
+              <input type="text" id="company" name="company" placeholder="Nome da empresa" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="service">Serviço de interesse</label>
+            <select id="service" name="service">
+              <option value="">Selecione um serviço...</option>
+              <option>Contabilidade Empresarial</option>
+              <option>Planejamento Tributário</option>
+              <option>Departamento Pessoal</option>
+              <option>Abertura de Empresa</option>
+              <option>Imposto de Renda</option>
+              <option>Consultoria Financeira</option>
+              <option>MEI / Microempresa</option>
+              <option>Outro</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Como podemos ajudar?</label>
+            <textarea id="message" name="message" rows="4" placeholder="Conte um pouco sobre sua empresa e necessidade..."></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary btn-full" id="submit-btn">
+            <i class="fa-solid fa-paper-plane"></i>
+            <span>Enviar mensagem</span>
+          </button>
+
+          <div class="form-success" id="form-success">
+            <i class="fa-solid fa-circle-check"></i>
+            WhatsApp aberto com sua mensagem preenchida.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Footer ========== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="LOGO%20DG.png" alt="DG Contabilidade" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='logo.svg';this.style.filter='brightness(0) invert(1)';}else{this.style.display='none';this.nextElementSibling.style.display='flex';}" />
+          <div class="footer-logo-fallback">
+            <span>DG</span>
+            <small>Contabilidade</small>
+          </div>
+        </div>
+        <p>Inteligência contábil que transforma negócios. Soluções fiscais, tributárias e estratégicas para sua empresa crescer com segurança.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/dgcontabilidade/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/5594992073389" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h5>Links Rápidos</h5>
+        <ul>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#sobre">Sobre nós</a></li>
+          <li><a href="#calculadoras">Calculadoras</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Serviços</h5>
+        <ul>
+          <li><a href="#servicos">Contabilidade Empresarial</a></li>
+          <li><a href="#servicos">Planejamento Tributário</a></li>
+          <li><a href="#servicos">Departamento Pessoal</a></li>
+          <li><a href="#servicos">Abertura de Empresa</a></li>
+          <li><a href="#servicos">Imposto de Renda</a></li>
+          <li><a href="#servicos">Consultoria Financeira</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Contato</h5>
+        <ul class="footer-contact">
+          <li><i class="fa-solid fa-phone"></i> (94) 99207-3389</li>
+          <li><i class="fa-solid fa-envelope"></i> d.g.contabilidade@hotmail.com</li>
+          <li><i class="fa-solid fa-location-dot"></i> Canaã dos Carajás<br/>Pará</li>
+          <li><i class="fa-solid fa-clock"></i> Seg–Sex: 8h às 18h</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© <span id="year">2026</span> <strong>DG Contabilidade</strong>. Todos os direitos reservados.</p>
+        <p class="footer-credit">Desenvolvido com <i class="fa-solid fa-heart"></i> para o seu negócio.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flutuante -->
+  <a href="https://wa.me/5594992073389?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20DG%20Contabilidade." target="_blank" rel="noopener" class="float-whatsapp" aria-label="Falar no WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="fw-tooltip">Fale conosco</span>
+  </a>
+
+  <!-- Scroll to top -->
+  <button class="scroll-top" id="scroll-top" aria-label="Voltar ao topo">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>

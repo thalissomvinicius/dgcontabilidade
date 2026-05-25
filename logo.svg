@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="dgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a2472"/>
+      <stop offset="100%" stop-color="#1c47c4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Letter D -->
+  <path d="M150,80 L150,470 L320,470 C420,470 480,400 480,275 C480,150 420,80 320,80 Z M260,170 L320,170 C360,170 380,210 380,275 C380,340 360,380 320,380 L260,380 Z"
+        fill="url(#dgGrad)"/>
+
+  <!-- Letter G -->
+  <path d="M850,275 L680,275 L680,360 L740,360 L740,380 C720,380 700,378 690,370 C660,348 650,310 650,275 C650,210 690,170 740,170 C780,170 810,190 820,225 L860,160 C835,115 790,80 740,80 C620,80 540,160 540,275 C540,390 620,470 740,470 C800,470 850,440 870,400 L850,400 Z"
+        fill="url(#dgGrad)"/>
+
+  <!-- Caduceus simplified - center between D and G -->
+  <g transform="translate(500, 275)" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round">
+    <!-- Wings -->
+    <path d="M -55,-130 Q -90,-160 -110,-130 Q -90,-115 -55,-115 Q -25,-115 -5,-130" fill="#fff" stroke="#fff" stroke-width="2"/>
+    <path d="M 55,-130 Q 90,-160 110,-130 Q 90,-115 55,-115 Q 25,-115 5,-130" fill="#fff" stroke="#fff" stroke-width="2"/>
+    <!-- Center sphere -->
+    <circle cx="0" cy="-145" r="9" fill="#fff" stroke="none"/>
+    <!-- Staff -->
+    <line x1="0" y1="-115" x2="0" y2="180" stroke="#fff" stroke-width="6"/>
+    <!-- Snake left -->
+    <path d="M 0,-100 C -30,-80 -30,-50 0,-30 C 30,-10 30,20 0,40 C -30,60 -30,90 0,110 C 25,128 25,150 0,170"
+          stroke="#fff" stroke-width="5" fill="none"/>
+    <!-- Snake right -->
+    <path d="M 0,-100 C 30,-80 30,-50 0,-30 C -30,-10 -30,20 0,40 C 30,60 30,90 0,110 C -25,128 -25,150 0,170"
+          stroke="#fff" stroke-width="5" fill="none"/>
+  </g>
+
+  <!-- "CONTABILIDADE" text -->
+  <text x="500" y="600"
+        font-family="Sora, 'Plus Jakarta Sans', system-ui, sans-serif"
+        font-size="78"
+        font-weight="700"
+        text-anchor="middle"
+        letter-spacing="14"
+        fill="url(#dgGrad)">CONTABILIDADE</text>
+</svg>
