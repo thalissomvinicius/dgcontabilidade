@@ -1652,7 +1652,12 @@ a.contact-item:hover {
   font-size: 0.86rem;
 }
 .footer-bottom-inner strong { color: #fff; }
-.footer-credit i { color: #ef4444; margin: 0 2px; }
+.footer-credit a {
+  color: var(--accent);
+  font-weight: 700;
+  transition: var(--t-fast);
+}
+.footer-credit a:hover { color: #fff; }
 
 /* ===========================================================
    Floating WhatsApp
