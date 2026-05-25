@@ -26,6 +26,8 @@ O projeto foi construído como uma landing page moderna, responsiva e orientada 
 - **JavaScript Vanilla** para menu, animações, calculadoras, máscara de telefone e integração com WhatsApp.
 - **Font Awesome** para ícones.
 - **Google Fonts** com Plus Jakarta Sans e Sora.
+- **Vercel Web Analytics** para acompanhamento de visitas.
+- **Vercel Speed Insights** para métricas reais de performance e Core Web Vitals.
 
 ## 📂 Estrutura
 
@@ -66,6 +68,8 @@ http://localhost:5500
 ## 📝 Observações
 
 As calculadoras do site têm finalidade informativa e não substituem uma análise contábil individual. Para decisões fiscais, tributárias ou trabalhistas, consulte a equipe da DG Contabilidade.
+
+Para que o Web Analytics e o Speed Insights funcionem em produção, habilite os recursos no dashboard do projeto na Vercel e faça um novo deploy. A Vercel cria as rotas internas `/_vercel/insights/*` e `/_vercel/speed-insights/*` após a ativação.
 
 ## 👨‍💻 Entrega
 
